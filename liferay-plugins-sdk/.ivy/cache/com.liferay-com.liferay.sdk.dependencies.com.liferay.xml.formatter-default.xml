@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="com.liferay"
+		module="com.liferay.sdk.dependencies.com.liferay.xml.formatter"
+		revision="working@guaige"
+		conf="default"
+		confs="default, internal, provided"
+		date="20161110215548"/>
+	<dependencies>
+		<module organisation="com.liferay" name="com.liferay.xml.formatter">
+			<revision name="1.0.0" status="release" pubdate="20150429221159" resolver="liferay-public" artresolver="default" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="0">
+				<license name="LGPL 2.1" url="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt"/>
+				<metadata-artifact status="no" details="" size="2878" time="0" location="/Users/greg/dev/conf/liferay-project/.ivy/cache/com.liferay/com.liferay.xml.formatter/ivy-1.0.0.xml" searched="false" original-local-location="/Users/greg/dev/conf/liferay-project/.ivy/cache/com.liferay/com.liferay.xml.formatter/ivy-1.0.0.xml.original" origin-is-local="false" origin-location="https://cdn.lfrs.sl/repository.liferay.com/nexus/content/groups/public/com/liferay/com.liferay.xml.formatter/1.0.0/com.liferay.xml.formatter-1.0.0.pom"/>
+				<caller organisation="com.liferay" name="com.liferay.sdk.dependencies.com.liferay.xml.formatter" conf="default" rev="1.0.0" rev-constraint-default="1.0.0" rev-constraint-dynamic="1.0.0" callerrev="working@guaige"/>
+				<artifacts>
+					<artifact name="com.liferay.xml.formatter" type="jar" ext="jar" status="no" details="" size="91493" time="0" location="/Users/greg/dev/conf/liferay-project/.ivy/cache/com.liferay/com.liferay.xml.formatter/jars/com.liferay.xml.formatter-1.0.0.jar">
+						<origin-location is-local="false" location="https://cdn.lfrs.sl/repository.liferay.com/nexus/content/groups/public/com/liferay/com.liferay.xml.formatter/1.0.0/com.liferay.xml.formatter-1.0.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="log4j" name="log4j">
+			<revision name="1.2.17" status="release" pubdate="20150507013008" resolver="local-m2" artresolver="default" homepage="http://logging.apache.org/log4j/1.2/" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="3">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3693" time="0" location="/Users/greg/dev/conf/liferay-project/.ivy/cache/log4j/log4j/ivy-1.2.17.xml" searched="false" original-local-location="/Users/greg/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.pom" origin-is-local="true" origin-location="file:/Users/greg/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.pom"/>
+				<caller organisation="com.liferay" name="com.liferay.xml.formatter" conf="default, compile, runtime, master" rev="1.2.17" rev-constraint-default="1.2.17" rev-constraint-dynamic="1.2.17" callerrev="1.0.0"/>
+				<artifacts>
+					<artifact name="log4j" type="bundle" ext="jar" status="no" details="" size="489884" time="0" location="/Users/greg/dev/conf/liferay-project/.ivy/cache/log4j/log4j/bundles/log4j-1.2.17.jar">
+						<origin-location is-local="true" location="file:/Users/greg/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="dom4j" name="dom4j">
+			<revision name="1.6.1" status="release" pubdate="20160620141406" resolver="local-m2" artresolver="default" homepage="http://dom4j.org" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="1">
+				<metadata-artifact status="no" details="" size="3742" time="0" location="/Users/greg/dev/conf/liferay-project/.ivy/cache/dom4j/dom4j/ivy-1.6.1.xml" searched="false" original-local-location="/Users/greg/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.pom" origin-is-local="true" origin-location="file:/Users/greg/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.pom"/>
+				<caller organisation="com.liferay" name="com.liferay.xml.formatter" conf="default, compile, runtime, master" rev="1.6.1" rev-constraint-default="1.6.1" rev-constraint-dynamic="1.6.1" callerrev="1.0.0"/>
+				<artifacts>
+					<artifact name="dom4j" type="jar" ext="jar" status="no" details="" size="313898" time="0" location="/Users/greg/dev/conf/liferay-project/.ivy/cache/dom4j/dom4j/jars/dom4j-1.6.1.jar">
+						<origin-location is-local="true" location="file:/Users/greg/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="xml-apis" name="xml-apis">
+			<revision name="1.0.b2" status="release" pubdate="20140528041322" resolver="local-m2" artresolver="default" homepage="http://xml.apache.org/commons/#external" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="2">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3015" time="0" location="/Users/greg/dev/conf/liferay-project/.ivy/cache/xml-apis/xml-apis/ivy-1.0.b2.xml" searched="false" original-local-location="/Users/greg/.m2/repository/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.pom" origin-is-local="true" origin-location="file:/Users/greg/.m2/repository/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.pom"/>
+				<caller organisation="dom4j" name="dom4j" conf="compile, runtime" rev="1.0.b2" rev-constraint-default="1.0.b2" rev-constraint-dynamic="1.0.b2" callerrev="1.6.1"/>
+				<artifacts>
+					<artifact name="xml-apis" type="jar" ext="jar" status="no" details="" size="109318" time="0" location="/Users/greg/dev/conf/liferay-project/.ivy/cache/xml-apis/xml-apis/jars/xml-apis-1.0.b2.jar">
+						<origin-location is-local="true" location="file:/Users/greg/.m2/repository/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

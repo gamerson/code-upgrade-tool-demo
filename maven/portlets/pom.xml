@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<project
+	xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.liferay</groupId>
+		<artifactId>liferay-project-maven</artifactId>
+		<version>1.0.0</version>
+	</parent>
+	<artifactId>portlets</artifactId>
+	<packaging>pom</packaging>
+
+	<modules>
+		<module>sample-dao-portlet</module>
+		<module>sample-form-navigator-portlet</module>
+		<module>sample-jsp-portlet</module>
+		<module>sample-permissions-portlet</module>
+		<module>sample-portal-service-portlet</module>
+		<module>sample-sign-in-portlet</module>
+		<module>sample-ui-search-container-taglib-portlet</module>
+		<module>sample-ui-taglibs-portlet</module>
+	</modules>
+</project>

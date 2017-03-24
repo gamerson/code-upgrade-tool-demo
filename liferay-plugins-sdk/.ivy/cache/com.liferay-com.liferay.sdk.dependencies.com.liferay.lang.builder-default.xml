@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="com.liferay"
+		module="com.liferay.sdk.dependencies.com.liferay.lang.builder"
+		revision="working@guaige"
+		conf="default"
+		confs="default, internal, provided"
+		date="20161110215542"/>
+	<dependencies>
+		<module organisation="com.liferay" name="com.liferay.lang.builder">
+			<revision name="1.0.4" status="release" pubdate="20160113184117" resolver="liferay-public" artresolver="default" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="0">
+				<license name="LGPL 2.1" url="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt"/>
+				<metadata-artifact status="no" details="" size="3324" time="0" location="/Users/greg/dev/conf/liferay-project/.ivy/cache/com.liferay/com.liferay.lang.builder/ivy-1.0.4.xml" searched="false" original-local-location="/Users/greg/dev/conf/liferay-project/.ivy/cache/com.liferay/com.liferay.lang.builder/ivy-1.0.4.xml.original" origin-is-local="false" origin-location="https://cdn.lfrs.sl/repository.liferay.com/nexus/content/groups/public/com/liferay/com.liferay.lang.builder/1.0.4/com.liferay.lang.builder-1.0.4.pom"/>
+				<caller organisation="com.liferay" name="com.liferay.sdk.dependencies.com.liferay.lang.builder" conf="default" rev="1.0.4" rev-constraint-default="1.0.4" rev-constraint-dynamic="1.0.4" callerrev="working@guaige"/>
+				<artifacts>
+					<artifact name="com.liferay.lang.builder" type="jar" ext="jar" status="no" details="" size="100763" time="0" location="/Users/greg/dev/conf/liferay-project/.ivy/cache/com.liferay/com.liferay.lang.builder/jars/com.liferay.lang.builder-1.0.4.jar">
+						<origin-location is-local="false" location="https://cdn.lfrs.sl/repository.liferay.com/nexus/content/groups/public/com/liferay/com.liferay.lang.builder/1.0.4/com.liferay.lang.builder-1.0.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.memetix" name="microsoft-translator-java-api">
+			<revision name="0.6.2" status="release" pubdate="20130318042512" resolver="liferay-public" artresolver="default" homepage="http://github.com/boatmeme/microsoft-translator-java-api" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="2">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3614" time="0" location="/Users/greg/dev/conf/liferay-project/.ivy/cache/com.memetix/microsoft-translator-java-api/ivy-0.6.2.xml" searched="false" original-local-location="/Users/greg/dev/conf/liferay-project/.ivy/cache/com.memetix/microsoft-translator-java-api/ivy-0.6.2.xml.original" origin-is-local="false" origin-location="https://cdn.lfrs.sl/repository.liferay.com/nexus/content/groups/public/com/memetix/microsoft-translator-java-api/0.6.2/microsoft-translator-java-api-0.6.2.pom"/>
+				<caller organisation="com.liferay" name="com.liferay.lang.builder" conf="default, compile, runtime, master" rev="0.6.2" rev-constraint-default="0.6.2" rev-constraint-dynamic="0.6.2" callerrev="1.0.4"/>
+				<artifacts>
+					<artifact name="microsoft-translator-java-api" type="jar" ext="jar" status="no" details="" size="23191" time="0" location="/Users/greg/dev/conf/liferay-project/.ivy/cache/com.memetix/microsoft-translator-java-api/jars/microsoft-translator-java-api-0.6.2.jar">
+						<origin-location is-local="true" location="file:/Users/greg/.m2/repository/com/memetix/microsoft-translator-java-api/0.6.2/microsoft-translator-java-api-0.6.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.googlecode.json-simple" name="json-simple">
+			<revision name="1.1" status="release" pubdate="20090812110513" resolver="liferay-public" artresolver="default" homepage="http://code.google.com/p/json-simple/" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="3">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2502" time="0" location="/Users/greg/dev/conf/liferay-project/.ivy/cache/com.googlecode.json-simple/json-simple/ivy-1.1.xml" searched="false" original-local-location="/Users/greg/dev/conf/liferay-project/.ivy/cache/com.googlecode.json-simple/json-simple/ivy-1.1.xml.original" origin-is-local="false" origin-location="https://cdn.lfrs.sl/repository.liferay.com/nexus/content/groups/public/com/googlecode/json-simple/json-simple/1.1/json-simple-1.1.pom"/>
+				<caller organisation="com.memetix" name="microsoft-translator-java-api" conf="compile, runtime" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="0.6.2"/>
+				<artifacts>
+					<artifact name="json-simple" type="jar" ext="jar" status="no" details="" size="16046" time="0" location="/Users/greg/dev/conf/liferay-project/.ivy/cache/com.googlecode.json-simple/json-simple/jars/json-simple-1.1.jar">
+						<origin-location is-local="false" location="https://cdn.lfrs.sl/repository.liferay.com/nexus/content/groups/public/com/googlecode/json-simple/json-simple/1.1/json-simple-1.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="log4j" name="log4j">
+			<revision name="1.2.17" status="release" pubdate="20150507013008" resolver="local-m2" artresolver="default" homepage="http://logging.apache.org/log4j/1.2/" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="1">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3693" time="0" location="/Users/greg/dev/conf/liferay-project/.ivy/cache/log4j/log4j/ivy-1.2.17.xml" searched="false" original-local-location="/Users/greg/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.pom" origin-is-local="true" origin-location="file:/Users/greg/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.pom"/>
+				<caller organisation="com.liferay" name="com.liferay.lang.builder" conf="default, compile, runtime, master" rev="1.2.17" rev-constraint-default="1.2.17" rev-constraint-dynamic="1.2.17" callerrev="1.0.4"/>
+				<artifacts>
+					<artifact name="log4j" type="bundle" ext="jar" status="no" details="" size="489884" time="0" location="/Users/greg/dev/conf/liferay-project/.ivy/cache/log4j/log4j/bundles/log4j-1.2.17.jar">
+						<origin-location is-local="true" location="file:/Users/greg/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

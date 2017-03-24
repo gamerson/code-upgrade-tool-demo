@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="com.liferay"
+		module="com.liferay.sdk.dependencies.com.liferay.whip"
+		revision="working@guaige"
+		conf="default"
+		confs="default, internal, provided"
+		date="20161110215548"/>
+	<dependencies>
+		<module organisation="com.liferay" name="com.liferay.whip">
+			<revision name="1.0.0" status="release" pubdate="20150518143510" resolver="liferay-public" artresolver="default" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="0">
+				<license name="LGPL 2.1" url="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt"/>
+				<metadata-artifact status="no" details="" size="2598" time="0" location="/Users/greg/dev/conf/liferay-project/.ivy/cache/com.liferay/com.liferay.whip/ivy-1.0.0.xml" searched="false" original-local-location="/Users/greg/dev/conf/liferay-project/.ivy/cache/com.liferay/com.liferay.whip/ivy-1.0.0.xml.original" origin-is-local="false" origin-location="https://cdn.lfrs.sl/repository.liferay.com/nexus/content/groups/public/com/liferay/com.liferay.whip/1.0.0/com.liferay.whip-1.0.0.pom"/>
+				<caller organisation="com.liferay" name="com.liferay.sdk.dependencies.com.liferay.whip" conf="default" rev="1.0.0" rev-constraint-default="1.0.0" rev-constraint-dynamic="1.0.0" callerrev="working@guaige"/>
+				<artifacts>
+					<artifact name="com.liferay.whip" type="jar" ext="jar" status="no" details="" size="43280" time="0" location="/Users/greg/dev/conf/liferay-project/.ivy/cache/com.liferay/com.liferay.whip/jars/com.liferay.whip-1.0.0.jar">
+						<origin-location is-local="false" location="https://cdn.lfrs.sl/repository.liferay.com/nexus/content/groups/public/com/liferay/com.liferay.whip/1.0.0/com.liferay.whip-1.0.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.ow2.asm" name="asm-debug-all">
+			<revision name="5.0.1" status="release" pubdate="20140323052114" resolver="liferay-public" artresolver="default" homepage="" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="1">
+				<metadata-artifact status="no" details="" size="3973" time="0" location="/Users/greg/dev/conf/liferay-project/.ivy/cache/org.ow2.asm/asm-debug-all/ivy-5.0.1.xml" searched="false" original-local-location="/Users/greg/dev/conf/liferay-project/.ivy/cache/org.ow2.asm/asm-debug-all/ivy-5.0.1.xml.original" origin-is-local="false" origin-location="https://cdn.lfrs.sl/repository.liferay.com/nexus/content/groups/public/org/ow2/asm/asm-debug-all/5.0.1/asm-debug-all-5.0.1.pom"/>
+				<caller organisation="com.liferay" name="com.liferay.whip" conf="default, compile, runtime, master" rev="5.0.1" rev-constraint-default="5.0.1" rev-constraint-dynamic="5.0.1" callerrev="1.0.0"/>
+				<artifacts>
+					<artifact name="asm-debug-all" type="jar" ext="jar" status="no" details="" size="380292" time="0" location="/Users/greg/dev/conf/liferay-project/.ivy/cache/org.ow2.asm/asm-debug-all/jars/asm-debug-all-5.0.1.jar">
+						<origin-location is-local="false" location="https://cdn.lfrs.sl/repository.liferay.com/nexus/content/groups/public/org/ow2/asm/asm-debug-all/5.0.1/asm-debug-all-5.0.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

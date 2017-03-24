@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="com.liferay"
+		module="sample-dao-portlet"
+		revision="working@guaige"
+		conf="provided"
+		confs="default, internal, provided, runtime, test"
+		date="20161110220208"/>
+	<dependencies>
+	</dependencies>
+</ivy-report>

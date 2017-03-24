@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="com.liferay"
+		module="com.liferay.sdk.dependencies.com.liferay.portal.tools.upgrade.table.builder"
+		revision="working@guaige"
+		conf="default"
+		confs="default, internal, provided"
+		date="20161110215542"/>
+	<dependencies>
+		<module organisation="com.liferay" name="com.liferay.portal.tools.upgrade.table.builder">
+			<revision name="1.0.2" status="release" pubdate="20150819183519" resolver="liferay-public" artresolver="default" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="0">
+				<license name="LGPL 2.1" url="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt"/>
+				<metadata-artifact status="no" details="" size="2865" time="0" location="/Users/greg/dev/conf/liferay-project/.ivy/cache/com.liferay/com.liferay.portal.tools.upgrade.table.builder/ivy-1.0.2.xml" searched="false" original-local-location="/Users/greg/dev/conf/liferay-project/.ivy/cache/com.liferay/com.liferay.portal.tools.upgrade.table.builder/ivy-1.0.2.xml.original" origin-is-local="false" origin-location="https://cdn.lfrs.sl/repository.liferay.com/nexus/content/groups/public/com/liferay/com.liferay.portal.tools.upgrade.table.builder/1.0.2/com.liferay.portal.tools.upgrade.table.builder-1.0.2.pom"/>
+				<caller organisation="com.liferay" name="com.liferay.sdk.dependencies.com.liferay.portal.tools.upgrade.table.builder" conf="default" rev="1.0.2" rev-constraint-default="1.0.2" rev-constraint-dynamic="1.0.2" callerrev="working@guaige"/>
+				<artifacts>
+					<artifact name="com.liferay.portal.tools.upgrade.table.builder" type="jar" ext="jar" status="no" details="" size="36204" time="0" location="/Users/greg/dev/conf/liferay-project/.ivy/cache/com.liferay/com.liferay.portal.tools.upgrade.table.builder/jars/com.liferay.portal.tools.upgrade.table.builder-1.0.2.jar">
+						<origin-location is-local="false" location="https://cdn.lfrs.sl/repository.liferay.com/nexus/content/groups/public/com/liferay/com.liferay.portal.tools.upgrade.table.builder/1.0.2/com.liferay.portal.tools.upgrade.table.builder-1.0.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="com.liferay"
+		module="com.liferay.sdk.dependencies.com.liferay.portal.tools.wsdd.builder"
+		revision="working@guaige"
+		conf="default"
+		confs="default, internal, provided"
+		date="20161110215542"/>
+	<dependencies>
+		<module organisation="com.liferay" name="com.liferay.portal.tools.wsdd.builder">
+			<revision name="1.0.2" status="release" pubdate="20150721001039" resolver="liferay-public" artresolver="default" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="0">
+				<license name="LGPL 2.1" url="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt"/>
+				<metadata-artifact status="no" details="" size="4311" time="0" location="/Users/greg/dev/conf/liferay-project/.ivy/cache/com.liferay/com.liferay.portal.tools.wsdd.builder/ivy-1.0.2.xml" searched="false" original-local-location="/Users/greg/dev/conf/liferay-project/.ivy/cache/com.liferay/com.liferay.portal.tools.wsdd.builder/ivy-1.0.2.xml.original" origin-is-local="false" origin-location="https://cdn.lfrs.sl/repository.liferay.com/nexus/content/groups/public/com/liferay/com.liferay.portal.tools.wsdd.builder/1.0.2/com.liferay.portal.tools.wsdd.builder-1.0.2.pom"/>
+				<caller organisation="com.liferay" name="com.liferay.sdk.dependencies.com.liferay.portal.tools.wsdd.builder" conf="default" rev="1.0.2" rev-constraint-default="1.0.2" rev-constraint-dynamic="1.0.2" callerrev="working@guaige"/>
+				<artifacts>
+					<artifact name="com.liferay.portal.tools.wsdd.builder" type="jar" ext="jar" status="no" details="" size="129280" time="0" location="/Users/greg/dev/conf/liferay-project/.ivy/cache/com.liferay/com.liferay.portal.tools.wsdd.builder/jars/com.liferay.portal.tools.wsdd.builder-1.0.2.jar">
+						<origin-location is-local="false" location="https://cdn.lfrs.sl/repository.liferay.com/nexus/content/groups/public/com/liferay/com.liferay.portal.tools.wsdd.builder/1.0.2/com.liferay.portal.tools.wsdd.builder-1.0.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.liferay" name="org.apache.axis">
+			<revision name="1.4.LIFERAY-PATCHED-1" status="release" pubdate="20150424122412" resolver="liferay-public" artresolver="default" homepage="" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="14">
+				<license name="LGPL 2.1" url="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt"/>
+				<metadata-artifact status="no" details="" size="2573" time="0" location="/Users/greg/dev/conf/liferay-project/.ivy/cache/com.liferay/org.apache.axis/ivy-1.4.LIFERAY-PATCHED-1.xml" searched="false" original-local-location="/Users/greg/dev/conf/liferay-project/.ivy/cache/com.liferay/org.apache.axis/ivy-1.4.LIFERAY-PATCHED-1.xml.original" origin-is-local="false" origin-location="https://cdn.lfrs.sl/repository.liferay.com/nexus/content/groups/public/com/liferay/org.apache.axis/1.4.LIFERAY-PATCHED-1/org.apache.axis-1.4.LIFERAY-PATCHED-1.pom"/>
+				<caller organisation="com.liferay" name="com.liferay.portal.tools.wsdd.builder" conf="default, compile, runtime, master" rev="1.4.LIFERAY-PATCHED-1" rev-constraint-default="1.4.LIFERAY-PATCHED-1" rev-constraint-dynamic="1.4.LIFERAY-PATCHED-1" callerrev="1.0.2"/>
+				<artifacts>
+					<artifact name="org.apache.axis" type="jar" ext="jar" status="no" details="" size="1632353" time="0" location="/Users/greg/dev/conf/liferay-project/.ivy/cache/com.liferay/org.apache.axis/jars/org.apache.axis-1.4.LIFERAY-PATCHED-1.jar">
+						<origin-location is-local="false" location="https://cdn.lfrs.sl/repository.liferay.com/nexus/content/groups/public/com/liferay/org.apache.axis/1.4.LIFERAY-PATCHED-1/org.apache.axis-1.4.LIFERAY-PATCHED-1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="javax.mail" name="mail">
+			<revision name="1.4" status="release" pubdate="20150106013145" resolver="local-m2" artresolver="default" homepage="https://glassfish.dev.java.net/javaee5/mail/" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="13">
+				<license name="Common Development and Distribution License (CDDL) v1.0" url="https://glassfish.dev.java.net/public/CDDLv1.0.html"/>
+				<metadata-artifact status="no" details="" size="2757" time="0" location="/Users/greg/dev/conf/liferay-project/.ivy/cache/javax.mail/mail/ivy-1.4.xml" searched="false" original-local-location="/Users/greg/.m2/repository/javax/mail/mail/1.4/mail-1.4.pom" origin-is-local="true" origin-location="file:/Users/greg/.m2/repository/javax/mail/mail/1.4/mail-1.4.pom"/>
+				<caller organisation="com.liferay" name="com.liferay.portal.tools.wsdd.builder" conf="default, compile, runtime, master" rev="1.4" rev-constraint-default="1.4" rev-constraint-dynamic="1.4" callerrev="1.0.2"/>
+				<artifacts>
+					<artifact name="mail" type="jar" ext="jar" status="no" details="" size="388864" time="0" location="/Users/greg/dev/conf/liferay-project/.ivy/cache/javax.mail/mail/jars/mail-1.4.jar">
+						<origin-location is-local="true" location="file:/Users/greg/.m2/repository/javax/mail/mail/1.4/mail-1.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="log4j" name="log4j">
+			<revision name="1.2.17" status="release" pubdate="20150507013008" resolver="local-m2" artresolver="default" homepage="http://logging.apache.org/log4j/1.2/" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="12">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3693" time="0" location="/Users/greg/dev/conf/liferay-project/.ivy/cache/log4j/log4j/ivy-1.2.17.xml" searched="false" original-local-location="/Users/greg/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.pom" origin-is-local="true" origin-location="file:/Users/greg/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.pom"/>
+				<caller organisation="com.liferay" name="com.liferay.portal.tools.wsdd.builder" conf="default, compile, runtime, master" rev="1.2.17" rev-constraint-default="1.2.17" rev-constraint-dynamic="1.2.17" callerrev="1.0.2"/>
+				<artifacts>
+					<artifact name="log4j" type="bundle" ext="jar" status="no" details="" size="489884" time="0" location="/Users/greg/dev/conf/liferay-project/.ivy/cache/log4j/log4j/bundles/log4j-1.2.17.jar">
+						<origin-location is-local="true" location="file:/Users/greg/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="dom4j" name="dom4j">
+			<revision name="1.6.1" status="release" pubdate="20160620141406" resolver="local-m2" artresolver="default" homepage="http://dom4j.org" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="10">
+				<metadata-artifact status="no" details="" size="3742" time="0" location="/Users/greg/dev/conf/liferay-project/.ivy/cache/dom4j/dom4j/ivy-1.6.1.xml" searched="false" original-local-location="/Users/greg/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.pom" origin-is-local="true" origin-location="file:/Users/greg/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.pom"/>
+				<caller organisation="com.liferay" name="com.liferay.portal.tools.wsdd.builder" conf="default, compile, runtime, master" rev="1.6.1" rev-constraint-default="1.6.1" rev-constraint-dynamic="1.6.1" callerrev="1.0.2"/>
+				<artifacts>
+					<artifact name="dom4j" type="jar" ext="jar" status="no" details="" size="313898" time="0" location="/Users/greg/dev/conf/liferay-project/.ivy/cache/dom4j/dom4j/jars/dom4j-1.6.1.jar">
+						<origin-location is-local="true" location="file:/Users/greg/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="xml-apis" name="xml-apis">
+			<revision name="1.0.b2" status="release" pubdate="20140528041322" resolver="local-m2" artresolver="default" homepage="http://xml.apache.org/commons/#external" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="11">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3015" time="0" location="/Users/greg/dev/conf/liferay-project/.ivy/cache/xml-apis/xml-apis/ivy-1.0.b2.xml" searched="false" original-local-location="/Users/greg/.m2/repository/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.pom" origin-is-local="true" origin-location="file:/Users/greg/.m2/repository/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.pom"/>
+				<caller organisation="dom4j" name="dom4j" conf="compile, runtime" rev="1.0.b2" rev-constraint-default="1.0.b2" rev-constraint-dynamic="1.0.b2" callerrev="1.6.1"/>
+				<artifacts>
+					<artifact name="xml-apis" type="jar" ext="jar" status="no" details="" size="109318" time="0" location="/Users/greg/dev/conf/liferay-project/.ivy/cache/xml-apis/xml-apis/jars/xml-apis-1.0.b2.jar">
+						<origin-location is-local="true" location="file:/Users/greg/.m2/repository/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-logging" name="commons-logging">
+			<revision name="1.0.4" status="release" pubdate="20140528041322" resolver="local-m2" artresolver="default" homepage="http://jakarta.apache.org/commons/logging/" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="9">
+				<license name="The Apache Software License, Version 2.0" url="/LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="3190" time="0" location="/Users/greg/dev/conf/liferay-project/.ivy/cache/commons-logging/commons-logging/ivy-1.0.4.xml" searched="false" original-local-location="/Users/greg/.m2/repository/commons-logging/commons-logging/1.0.4/commons-logging-1.0.4.pom" origin-is-local="true" origin-location="file:/Users/greg/.m2/repository/commons-logging/commons-logging/1.0.4/commons-logging-1.0.4.pom"/>
+				<caller organisation="com.liferay" name="com.liferay.portal.tools.wsdd.builder" conf="default, compile, runtime, master" rev="1.0.4" rev-constraint-default="1.0.4" rev-constraint-dynamic="1.0.4" callerrev="1.0.2"/>
+				<caller organisation="commons-discovery" name="commons-discovery" conf="compile, runtime" rev="1.0.3" rev-constraint-default="1.0.3" rev-constraint-dynamic="1.0.3" callerrev="0.2"/>
+				<artifacts>
+					<artifact name="commons-logging" type="jar" ext="jar" status="no" details="" size="38015" time="0" location="/Users/greg/dev/conf/liferay-project/.ivy/cache/commons-logging/commons-logging/jars/commons-logging-1.0.4.jar">
+						<origin-location is-local="true" location="file:/Users/greg/.m2/repository/commons-logging/commons-logging/1.0.4/commons-logging-1.0.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="1.0.3" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="master(*), runtime(*), compile(*)" position="-1">
+				<evicted-by rev="1.0.4"/>
+				<caller organisation="commons-discovery" name="commons-discovery" conf="compile, runtime" rev="1.0.3" rev-constraint-default="1.0.3" rev-constraint-dynamic="1.0.3" callerrev="0.2"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-discovery" name="commons-discovery">
+			<revision name="0.2" status="release" pubdate="20160311161941" resolver="local-m2" artresolver="default" homepage="" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="8">
+				<metadata-artifact status="no" details="" size="2793" time="0" location="/Users/greg/dev/conf/liferay-project/.ivy/cache/commons-discovery/commons-discovery/ivy-0.2.xml" searched="false" original-local-location="/Users/greg/.m2/repository/commons-discovery/commons-discovery/0.2/commons-discovery-0.2.pom" origin-is-local="true" origin-location="file:/Users/greg/.m2/repository/commons-discovery/commons-discovery/0.2/commons-discovery-0.2.pom"/>
+				<caller organisation="com.liferay" name="com.liferay.portal.tools.wsdd.builder" conf="default, compile, runtime, master" rev="0.2" rev-constraint-default="0.2" rev-constraint-dynamic="0.2" callerrev="1.0.2"/>
+				<artifacts>
+					<artifact name="commons-discovery" type="jar" ext="jar" status="no" details="" size="71442" time="0" location="/Users/greg/dev/conf/liferay-project/.ivy/cache/commons-discovery/commons-discovery/jars/commons-discovery-0.2.jar">
+						<origin-location is-local="false" location="https://cdn.lfrs.sl/repository.liferay.com/nexus/content/groups/public/commons-discovery/commons-discovery/0.2/commons-discovery-0.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="axis" name="axis-wsdl4j">
+			<revision name="1.5.1" status="release" pubdate="20160311161941" resolver="local-m2" artresolver="default" homepage="" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="7">
+				<metadata-artifact status="no" details="" size="2187" time="0" location="/Users/greg/dev/conf/liferay-project/.ivy/cache/axis/axis-wsdl4j/ivy-1.5.1.xml" searched="false" original-local-location="/Users/greg/.m2/repository/axis/axis-wsdl4j/1.5.1/axis-wsdl4j-1.5.1.pom" origin-is-local="true" origin-location="file:/Users/greg/.m2/repository/axis/axis-wsdl4j/1.5.1/axis-wsdl4j-1.5.1.pom"/>
+				<caller organisation="com.liferay" name="com.liferay.portal.tools.wsdd.builder" conf="default, compile, runtime, master" rev="1.5.1" rev-constraint-default="1.5.1" rev-constraint-dynamic="1.5.1" callerrev="1.0.2"/>
+				<artifacts>
+					<artifact name="axis-wsdl4j" type="jar" ext="jar" status="no" details="" size="126771" time="0" location="/Users/greg/dev/conf/liferay-project/.ivy/cache/axis/axis-wsdl4j/jars/axis-wsdl4j-1.5.1.jar">
+						<origin-location is-local="true" location="file:/Users/greg/.m2/repository/axis/axis-wsdl4j/1.5.1/axis-wsdl4j-1.5.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.axis" name="axis-saaj">
+			<revision name="1.4" status="release" pubdate="20160311161940" resolver="local-m2" artresolver="default" homepage="" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="6">
+				<metadata-artifact status="no" details="" size="2249" time="0" location="/Users/greg/dev/conf/liferay-project/.ivy/cache/org.apache.axis/axis-saaj/ivy-1.4.xml" searched="false" original-local-location="/Users/greg/.m2/repository/org/apache/axis/axis-saaj/1.4/axis-saaj-1.4.pom" origin-is-local="true" origin-location="file:/Users/greg/.m2/repository/org/apache/axis/axis-saaj/1.4/axis-saaj-1.4.pom"/>
+				<caller organisation="com.liferay" name="com.liferay.portal.tools.wsdd.builder" conf="default, compile, runtime, master" rev="1.4" rev-constraint-default="1.4" rev-constraint-dynamic="1.4" callerrev="1.0.2"/>
+				<artifacts>
+					<artifact name="axis-saaj" type="jar" ext="jar" status="no" details="" size="18979" time="0" location="/Users/greg/dev/conf/liferay-project/.ivy/cache/org.apache.axis/axis-saaj/jars/axis-saaj-1.4.jar">
+						<origin-location is-local="true" location="file:/Users/greg/.m2/repository/org/apache/axis/axis-saaj/1.4/axis-saaj-1.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.axis" name="axis-jaxrpc">
+			<revision name="1.4" status="release" pubdate="20151014030831" resolver="local-m2" artresolver="default" homepage="" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="5">
+				<metadata-artifact status="no" details="" size="2253" time="0" location="/Users/greg/dev/conf/liferay-project/.ivy/cache/org.apache.axis/axis-jaxrpc/ivy-1.4.xml" searched="false" original-local-location="/Users/greg/.m2/repository/org/apache/axis/axis-jaxrpc/1.4/axis-jaxrpc-1.4.pom" origin-is-local="true" origin-location="file:/Users/greg/.m2/repository/org/apache/axis/axis-jaxrpc/1.4/axis-jaxrpc-1.4.pom"/>
+				<caller organisation="com.liferay" name="com.liferay.portal.tools.wsdd.builder" conf="default, compile, runtime, master" rev="1.4" rev-constraint-default="1.4" rev-constraint-dynamic="1.4" callerrev="1.0.2"/>
+				<artifacts>
+					<artifact name="axis-jaxrpc" type="jar" ext="jar" status="no" details="" size="31191" time="0" location="/Users/greg/dev/conf/liferay-project/.ivy/cache/org.apache.axis/axis-jaxrpc/jars/axis-jaxrpc-1.4.jar">
+						<origin-location is-local="true" location="file:/Users/greg/.m2/repository/org/apache/axis/axis-jaxrpc/1.4/axis-jaxrpc-1.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.axis" name="axis-ant">
+			<revision name="1.4" status="release" pubdate="20151014030830" resolver="local-m2" artresolver="default" homepage="" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="4">
+				<metadata-artifact status="no" details="" size="2247" time="0" location="/Users/greg/dev/conf/liferay-project/.ivy/cache/org.apache.axis/axis-ant/ivy-1.4.xml" searched="false" original-local-location="/Users/greg/.m2/repository/org/apache/axis/axis-ant/1.4/axis-ant-1.4.pom" origin-is-local="true" origin-location="file:/Users/greg/.m2/repository/org/apache/axis/axis-ant/1.4/axis-ant-1.4.pom"/>
+				<caller organisation="com.liferay" name="com.liferay.portal.tools.wsdd.builder" conf="default, compile, runtime, master" rev="1.4" rev-constraint-default="1.4" rev-constraint-dynamic="1.4" callerrev="1.0.2"/>
+				<artifacts>
+					<artifact name="axis-ant" type="jar" ext="jar" status="no" details="" size="33202" time="0" location="/Users/greg/dev/conf/liferay-project/.ivy/cache/org.apache.axis/axis-ant/jars/axis-ant-1.4.jar">
+						<origin-location is-local="true" location="file:/Users/greg/.m2/repository/org/apache/axis/axis-ant/1.4/axis-ant-1.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.ant" name="ant">
+			<revision name="1.9.4" status="release" pubdate="20150209104552" resolver="local-m2" artresolver="default" homepage="http://ant.apache.org/" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="2">
+				<metadata-artifact status="no" details="" size="3133" time="0" location="/Users/greg/dev/conf/liferay-project/.ivy/cache/org.apache.ant/ant/ivy-1.9.4.xml" searched="false" original-local-location="/Users/greg/.m2/repository/org/apache/ant/ant/1.9.4/ant-1.9.4.pom" origin-is-local="true" origin-location="file:/Users/greg/.m2/repository/org/apache/ant/ant/1.9.4/ant-1.9.4.pom"/>
+				<caller organisation="com.liferay" name="com.liferay.portal.tools.wsdd.builder" conf="default, compile, runtime, master" rev="1.9.4" rev-constraint-default="1.9.4" rev-constraint-dynamic="1.9.4" callerrev="1.0.2"/>
+				<artifacts>
+					<artifact name="ant" type="jar" ext="jar" status="no" details="" size="2019274" time="0" location="/Users/greg/dev/conf/liferay-project/.ivy/cache/org.apache.ant/ant/jars/ant-1.9.4.jar">
+						<origin-location is-local="true" location="file:/Users/greg/.m2/repository/org/apache/ant/ant/1.9.4/ant-1.9.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.ant" name="ant-launcher">
+			<revision name="1.9.4" status="release" pubdate="20150209104553" resolver="local-m2" artresolver="default" homepage="http://ant.apache.org/" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="3">
+				<metadata-artifact status="no" details="" size="2638" time="0" location="/Users/greg/dev/conf/liferay-project/.ivy/cache/org.apache.ant/ant-launcher/ivy-1.9.4.xml" searched="false" original-local-location="/Users/greg/.m2/repository/org/apache/ant/ant-launcher/1.9.4/ant-launcher-1.9.4.pom" origin-is-local="true" origin-location="file:/Users/greg/.m2/repository/org/apache/ant/ant-launcher/1.9.4/ant-launcher-1.9.4.pom"/>
+				<caller organisation="org.apache.ant" name="ant" conf="compile, runtime" rev="1.9.4" rev-constraint-default="1.9.4" rev-constraint-dynamic="1.9.4" callerrev="1.9.4"/>
+				<artifacts>
+					<artifact name="ant-launcher" type="jar" ext="jar" status="no" details="" size="18381" time="0" location="/Users/greg/dev/conf/liferay-project/.ivy/cache/org.apache.ant/ant-launcher/jars/ant-launcher-1.9.4.jar">
+						<origin-location is-local="true" location="file:/Users/greg/.m2/repository/org/apache/ant/ant-launcher/1.9.4/ant-launcher-1.9.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="javax.activation" name="activation">
+			<revision name="1.1" status="release" pubdate="20140604223610" resolver="local-m2" artresolver="default" homepage="http://java.sun.com/products/javabeans/jaf/index.jsp" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="1">
+				<license name="Common Development and Distribution License (CDDL) v1.0" url="https://glassfish.dev.java.net/public/CDDLv1.0.html"/>
+				<metadata-artifact status="no" details="" size="2812" time="0" location="/Users/greg/dev/conf/liferay-project/.ivy/cache/javax.activation/activation/ivy-1.1.xml" searched="false" original-local-location="/Users/greg/.m2/repository/javax/activation/activation/1.1/activation-1.1.pom" origin-is-local="true" origin-location="file:/Users/greg/.m2/repository/javax/activation/activation/1.1/activation-1.1.pom"/>
+				<caller organisation="javax.mail" name="mail" conf="compile, runtime" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="1.4"/>
+				<caller organisation="com.liferay" name="com.liferay.portal.tools.wsdd.builder" conf="default, compile, runtime, master" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="1.0.2"/>
+				<artifacts>
+					<artifact name="activation" type="jar" ext="jar" status="no" details="" size="62983" time="0" location="/Users/greg/dev/conf/liferay-project/.ivy/cache/javax.activation/activation/jars/activation-1.1.jar">
+						<origin-location is-local="true" location="file:/Users/greg/.m2/repository/javax/activation/activation/1.1/activation-1.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
