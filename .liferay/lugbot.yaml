@@ -1,4 +1,4 @@
 currentVersion: "6.2"
 upgradeVersion: "7.3"
-
+pluginsSDKPath: liferay-plugins-sdk
 workspacePath: liferay-workspace
